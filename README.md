@@ -21,7 +21,7 @@ Whenever new code is pushed into github, the Gihub Actions is launched by deaful
 1. Prerequisites
     - [Azure Account](https://portal.azure.com)
     - [Azure DevOp Account](https://dev.azure.com/)
-    - [Azure Pipelines] (https://github.com/marketplace/azure-pipelines)
+    - [Azure Pipelines](https://github.com/marketplace/azure-pipelines)
 
 2. Azure CLI Setup
     - Login to Azure CLI
