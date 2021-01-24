@@ -1,3 +1,4 @@
+![Python application test with Github Actions](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)
 # Overview
 
 A Github repo is built from scratch along with a scaffolding to achieve Continuous Integration and Continuous Delivery. Project scaffolding includes Makefile, requirements.txt, Python virtual environment , project scripts and test files. To explore the CI/CD pipeline, A python based machine learning app using the flask web framework has been deployed as the Azure web app. This ML application uses a  pre trained sklearn model to predict house prices in Boston based on certain defined features. 
