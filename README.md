@@ -120,4 +120,4 @@ Potential improvements can be
 
 ## Demo 
 
-[![Demo]](https://www.youtube.com/watch?v=8vtAg1waRO8)
+![Demo](https://www.youtube.com/watch?v=8vtAg1waRO8)
