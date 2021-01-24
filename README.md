@@ -4,7 +4,7 @@ A Github repo is built from scratch along with a scaffolding to achieve Continuo
 
 The Project intends to use
   * Github Actions 
-  * Azure Pipelines
+  * Azure Pipelines.
 
 ## Project Plan
 
