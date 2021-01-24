@@ -62,27 +62,36 @@ Now the pipeline is created. The pipeline will pull the new version of code duri
 ## Screenshots :
 
 * Project cloned into Azure Cloud Shell
+
 ![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/RepoClonedInAzureCLI.PNG)
 
 * Execute makeall command
+
 ![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/MakeAll.PNG)
 
 * Project running on Azure App Service
+
 ![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/Sklearn_homescreen.PNG)
 
 * Continuous Integration
+
 ![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/azuredevops/GithubActions.PNG)
 
 * Running Azure App Service from Azure Pipelines automatic deployment
+
 ![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/azuredevops/Pipeline.PNG)
+
 ![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/azuredevops/pipeline2.PNG)
+
 ![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/azuredevops/pipeline3.PNG)
+
 ![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/azuredevops/pipeline4.PNG)
-![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/azuredevops/pipeline_deploy.PNG)
+
 
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
+![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/azuredevops/pipeline_deploy.PNG)
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
@@ -100,8 +109,13 @@ Port: 443
 
 
 ## Enhancements
+There is a lot of scope to improve this basic CI/CD project.
 
-<TODO: A short description of how to improve the project in the future>
+Potential improvements can be 
+* Addition of more quality gateways
+* Role based restrictions
+* Distinguished dev and prod environment 
+
 
 ## Demo 
 
