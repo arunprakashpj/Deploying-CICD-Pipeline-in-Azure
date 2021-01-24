@@ -14,6 +14,7 @@ The Project intends to use
 ## Instructions
 
 The top level architecture of the project is presented below
+
 ![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/Architecture.png)
 
 Whenever new code is pushed into github, the Gihub Actions is launched by deafult to run the tests listed in Makefile, thus ensuring Continuous Integration. The Azure piplines are connected to Github to ensure Continuous Delivery, thus Azure Web App is deployed on every successfull code commit.
@@ -36,7 +37,7 @@ Whenever new code is pushed into github, the Gihub Actions is launched by deaful
         -``python3 -m venv ~/.demovenv``
         -``source ~/.demovenv/bin/activate``
       - Run ``make install``
-      - Run ``az webapp up -n <your-appservice>
+      - Run ``az webapp up -n <your-appservice>``
         
 4. Configure Continuous Integration
     - Workflow automation can be achieved by Github Actions
@@ -119,6 +120,4 @@ Potential improvements can be
 
 ## Demo 
 
-[![Demo]https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/DevOpsImg.png](https://www.youtube.com/watch?v=8vtAg1waRO8)
-
-
+[![Demo](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/DevOpsImg.png)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
