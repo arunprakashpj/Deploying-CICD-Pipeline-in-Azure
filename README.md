@@ -9,7 +9,7 @@ The Project intends to use
 ## Project Plan
 
 * A link to a [Trello board](https://trello.com/b/F07Mi3K6/ci-cd-pipeline) for the project
-* A link to a [spreadsheet](https://docs.google.com/spreadsheets/d/1MFS6xWIB7cfRcSqM_KnP22ozhviLFGRJJuGsBnUFrnM/edit#gid=1348135932) that includes the original and final project plan
+* A link to a [spreadsheet](https://docs.google.com/spreadsheets/d/1MFS6xWIB7cfRcSqM_KnP22ozhviLFGRJJuGsBnUFrnM/edit?usp=sharing) that includes the original and final project plan
 
 ## Instructions
 
