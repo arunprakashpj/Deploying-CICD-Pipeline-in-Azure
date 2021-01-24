@@ -4,36 +4,32 @@ A Github repo is built from scratch along with a scaffolding to achieve Continuo
 
 The Project intends to use
   * Github Actions 
-  * Azure Pipelines
+  * Azure Pipelines.
 
 ## Project Plan
-<TODO: Project Plan
 
-* A link to a Trello board for the project [https://trello.com/b/F07Mi3K6/ci-cd-pipeline]
-* A link to a spreadsheet that includes the original and final project plan>
+* A link to a [Trello board](https://trello.com/b/F07Mi3K6/ci-cd-pipeline) for the project
+* A link to a [spreadsheet]() that includes the original and final project plan
 
 ## Instructions
 
 The top level architecture of the project is presented below
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/Architecture.png)
 
 Whenever new code is pushed into github, the Gihub Actions is launched by deafult to run the tests listed in Makefile, thus ensuring Continuous Integration. The Azure piplines are connected to Github to ensure Continuous Delivery, thus Azure Web App is deployed on every successfull code commit.
-
-
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 1. Prerequisites
     - [Azure Account](https://portal.azure.com)
     - [Azure DevOp Account](https://dev.azure.com/)
-    - [Azure Pipelines] (https://github.com/marketplace/azure-pipelines)
+    - [Azure Pipelines](https://github.com/marketplace/azure-pipelines)
 
 2. Azure CLI Setup
     - Login to Azure CLI
     - Setup Azure Shell with Github Integration
         - Generate ssh keygen using the command ``ssh-keygen -t rsa ``
         - Use the command  ``cat your-keyfile-path `` and copy the public key
-        - Add the public key as [new SSH Key] (https://github.com/settings/keys) in Github
+        - Add the public key as [new SSH Key](https://github.com/settings/keys) in Github
+    - Clone the project using the command ``git clone git@github.com:arunprakashpj/Deploying-CICD-Pipeline-in-Azure.git``
         
 3. Flask ML Service Launch
       - Setup a virtual environment using the following command
@@ -63,26 +59,44 @@ Whenever new code is pushed into github, the Gihub Actions is launched by deaful
     
 Now the pipeline is created. The pipeline will pull the new version of code during the each commit. You can access the commit history, build summary, deployment summary can be accessed easily. 
 
-
-
-* Login to Azure CLI
-* Setup SSH 
-* Clone the project
-
-* Project running on Azure App Service
+## Screenshots :
 
 * Project cloned into Azure Cloud Shell
 
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
+![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/RepoClonedInAzureCLI.PNG)
 
-* Output of a test run
+* Execute makeall command
 
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/MakeAll.PNG)
+
+* Project running on Azure App Service
+
+![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/Sklearn_homescreen.PNG)
+
+* Continuous Integration
+
+![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/azuredevops/GithubActions.PNG)
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 
+![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/azuredevops/Pipeline.PNG)
+
+![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/azuredevops/pipeline2.PNG)
+
+![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/azuredevops/pipeline3.PNG)
+
+![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/azuredevops/pipeline4.PNG)
+
+
+
+* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+
+![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/azuredevops/pipeline_deploy.PNG)
+
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
+
+![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/prediction.PNG)
 
 ```bash
 udacity@Azure:~$ ./make_predict_azure_app.sh
@@ -91,15 +105,20 @@ Port: 443
 ```
 
 * Output of streamed log files from deployed application
+![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/logs.PNG)
 
-> 
 
 ## Enhancements
+There is a lot of scope to improve this basic CI/CD project.
 
-<TODO: A short description of how to improve the project in the future>
+Potential improvements can be 
+* Addition of more quality gateways
+* Role based restrictions
+* Distinguished dev and prod environment 
+
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+[![Demo](https://www.youtube.com/watch?v=8vtAg1waRO8)
 
 
