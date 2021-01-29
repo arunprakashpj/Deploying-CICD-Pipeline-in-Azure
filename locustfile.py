@@ -2,7 +2,7 @@ import time
 from locust import  HttpUser, task, between
 
 class MyUser(HttpUser):
-  host = r'https://demowebapp.azurewebsites.net:443/predict'
+  host = r'https://demowebapp.azurewebsites.net:443'
 
   @task
   def prediction(self):
