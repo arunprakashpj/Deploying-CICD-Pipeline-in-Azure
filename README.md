@@ -99,8 +99,7 @@ Now the pipeline is created. The pipeline will pull the new version of code duri
 
 ![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/azuredevops/pipeline_deploy.PNG)
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
+* Successful prediction from deployed flask app in Azure Cloud Shell is observed. The output looks similar to this:
 
 ![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/prediction.PNG)
 
