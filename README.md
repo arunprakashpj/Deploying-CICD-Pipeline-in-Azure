@@ -72,7 +72,7 @@ Now the pipeline is created. The pipeline will pull the new version of code duri
 ![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/MakeAll.PNG)
 
 * Command to deploy the webapp
-![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/webappdeploy.PNG)
+![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/demowebappml.PNG)
 
 * Project running on Azure App Service
 
