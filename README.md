@@ -71,6 +71,9 @@ Now the pipeline is created. The pipeline will pull the new version of code duri
 
 ![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/MakeAll.PNG)
 
+* Command to deploy the webapp
+![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/webappdeploy.PNG)
+
 * Project running on Azure App Service
 
 ![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/Sklearn_homescreen.PNG)
@@ -109,6 +112,9 @@ Port: 443
 * Output of streamed log files from deployed application
 ![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/logs.PNG)
 
+* Output of load testing  on the deployed application
+![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/locust_testing1.PNG)
+![Screenshot](https://github.com/arunprakashpj/Deploying-CICD-Pipeline-in-Azure/blob/main/Screenshots/locust_testing2.PNG)
 
 ## Enhancements
 There is a lot of scope to improve this basic CI/CD project.
