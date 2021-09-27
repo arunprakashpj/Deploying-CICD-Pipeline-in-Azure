@@ -122,7 +122,7 @@ There is a lot of scope to improve this basic CI/CD project.
 Potential improvements can be 
 * Addition of more quality gateways
 * Role based restrictions
-* Distinguished dev and prod environment 
+* Distinguished dev and prod environment. 
 
 
 ## Demo 
